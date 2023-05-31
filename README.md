@@ -1,10 +1,10 @@
 # pandas-challenge
-In this challenge, I leveraged Python/Pandas to manipulate data from two CSV files, (files can be found in Resources folder), in order to perform analysis on school performance. 
+In this challenge, I leveraged Python/Pandas to manipulate data from two CSV files, (files can be found in Resources folder), in order to perform analysis on school performance. After finding averages across the district, I grouped by school, type, and by student grade level, as well as binning by spending ranges per capita and school population size.
 ## Conclusions Based On Analysis
-1. 
-2.
+1. __Too Big To...Succeed?__ Schools with student populations exceeding 2000 students (described here as Large) significantly under-performed compared with schools with student populations of 2000 or fewer.
+2. __Mind The (Math) Gap__ The disparity between reading and math at bottom performing schools is 748.79% greater than the subject score disparity at top schools. the _disparity_ between subjects at a given school is a key indicator of that school's performance overall.
 These conclusions are based on the below analysis, summarized first at a high-level that is then followed by an in-depth review of the data. 
-## Analysis Summary
+## Analysis
 
 ### District Summary
 This dataframe shows how the district as whole has performed based on Math and Reading scores averaged across fifteen schools. The dataframe includes the below points:
